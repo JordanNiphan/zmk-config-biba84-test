@@ -55,6 +55,13 @@ As such, those are in use within the default layer at this time.*/
 };
 
 / {
+      behaviors {
+          mkp: behavior_mouse_key_press {
+            compatible = "zmk,behavior-mouse-key-press";
+          };
+        };
+
+
        keymap {
               compatible = "zmk,keymap";
 
