@@ -142,7 +142,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Sft+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -155,10 +155,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - LGUI
-  - Alt+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:keyboard-space$$
@@ -168,8 +168,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:backspace-reverse-outline$$
-  - AltGr+$$mdi:backspace-reverse-outline$$
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   raise:
   - $$mdi:keyboard-esc$$
   - F1
@@ -227,7 +227,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Sft+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -240,10 +240,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - LGUI
-  - Alt+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:keyboard-space$$
@@ -253,8 +253,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:backspace-reverse-outline$$
-  - AltGr+$$mdi:backspace-reverse-outline$$
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   adjust:
   - $$mdi:keyboard-esc$$
   - F1
@@ -312,7 +312,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Sft+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -325,10 +325,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - LGUI
-  - Alt+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:keyboard-space$$
@@ -338,8 +338,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:backspace-reverse-outline$$
-  - AltGr+$$mdi:backspace-reverse-outline$$
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   function:
   - $$mdi:keyboard-esc$$
   - F1
@@ -397,7 +397,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Sft+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -410,10 +410,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - LGUI
-  - Alt+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:keyboard-space$$
@@ -423,5 +423,5 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:backspace-reverse-outline$$
-  - AltGr+$$mdi:backspace-reverse-outline$$
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
