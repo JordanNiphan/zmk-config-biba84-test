@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    layout_0: layout_0 {
+    layout_0: biba40_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
@@ -92,14 +92,5 @@
         ,	<&key_physical_attrs	100	100	1300	500	0	0	0	>
         ,	<&key_physical_attrs	100	100	1400	500	0	0	0	>
             ;
-    };
-
-    position_map {
-        compatible = "zmk,physical-layout-position-map";
-
-        layout_0 {
-            physical-layout = <&default_layer>;
-            positions = <>;
-        };
     };
 };
