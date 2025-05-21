@@ -9,12 +9,6 @@
 
     };
 
-    &biba40_layout {
-    transform = <&default_transform>;
-    // kscan = <&kscan0>; // Chỉ cần nếu bạn dùng nhiều kscan
-    };
-
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
@@ -52,3 +46,9 @@
 
     };
 };
+
+ &biba40_layout {
+    transform = <&default_transform>;
+    // kscan = <&kscan0>; // Chỉ cần nếu bạn dùng nhiều kscan
+    };
+
