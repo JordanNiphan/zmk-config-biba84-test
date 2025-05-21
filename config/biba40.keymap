@@ -25,9 +25,9 @@ As such, those are in use within the default layer at this time.*/
 
 / {
     behaviors {
-        new_behavior: new_behavior {
+        mkp: mkp {
             compatible = "zmk,behavior-mouse-key-press";
-            label = "NEW_BEHAVIOR";
+            label = "MKP";
             #binding-cells = <1>;
         };
     };
