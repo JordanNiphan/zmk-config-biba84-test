@@ -37,6 +37,7 @@
         label = "EXT_POWER";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
          init-delay-ms = <50>;
+            };
 
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
@@ -83,4 +84,5 @@
     status = "okay";
     cdc_acm_uart: cdc_acm_uart {
         compatible = "zephyr,cdc-acm-uart";
+    };
 };
