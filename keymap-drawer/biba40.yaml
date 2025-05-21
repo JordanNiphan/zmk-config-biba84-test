@@ -75,7 +75,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - PLAY PAUSE
-  - MUTE
+  - $$mdi:volume-high$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
