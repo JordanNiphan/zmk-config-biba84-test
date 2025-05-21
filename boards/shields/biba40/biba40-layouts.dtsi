@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    layout_0: biba40_layout {
+    layout_0: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
