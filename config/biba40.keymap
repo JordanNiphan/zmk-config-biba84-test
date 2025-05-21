@@ -41,7 +41,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
 &kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
 &kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -59,7 +59,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
 &kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
 &kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -77,7 +77,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
 &kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
 &kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RRCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -95,7 +95,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
 &kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
 &kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -113,7 +113,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
 &kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
 &kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
     };
