@@ -4,15 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define LOWER  1
@@ -41,12 +37,12 @@ As such, those are in use within the default layer at this time.*/
             // | LCTRL  | LGUI  | LALT  | SPACE |  MO1  | SPACE | ENTER  |                    | ENTER  | SPACE | ENTER |  MO2  | RSFT  | RCTRL |
 
             bindings = <
-&kp ESC        &kp F1    &kp F2        &kp F3    &kp F4    &kp F5     &kp UP     &kp UP     &kp F6     &kp F7    &kp F8     &kp F9   &kp F10         &kp F11
-&kp MINUS      &kp N1    &kp N2        &kp N3    &kp N4    &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9   &kp N0          &kp EQUAL
-&kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
-&kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
-&kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp ESC    &kp F1    &kp F2    &kp F3     &kp F4     &kp F5     &kp UP     &kp UP     &kp F6     &kp F7     &kp F8     &kp F9   &kp F10   &kp F11
+&kp MINUS  &kp N1    &kp N2    &kp N3     &kp N4     &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T      &kp RET    &kp RET    &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F      &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&kp LCTRL  &kp LGUI  &kp LALT  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK  &kp DEL  &kp RALT  &kp RCTRL
             >;
         };
 
@@ -59,12 +55,12 @@ As such, those are in use within the default layer at this time.*/
             // | LCTRL  | LGUI  | LALT  | SPACE |  MO1  | SPACE | ENTER  |                    | ENTER  | SPACE | ENTER |  MO2  | RSFT  | RCTRL |
 
             bindings = <
-&kp ESC        &kp F1    &kp F2        &kp F3    &kp F4    &kp F5     &kp UP     &kp UP     &kp F6     &kp F7    &kp F8     &kp F9   &kp F10         &kp F11
-&kp MINUS      &kp N1    &kp N2        &kp N3    &kp N4    &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9   &kp N0          &kp EQUAL
-&kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
-&kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
-&kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp ESC        &kp F1    &kp F2        &kp F3     &kp F4     &kp F5     &kp UP     &kp UP     &kp F6     &kp F7     &kp F8     &kp F9   &kp F10         &kp F11
+&kp MINUS      &kp N1    &kp N2        &kp N3     &kp N4     &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0          &kp EQUAL
+&kp TAB        &kp Q     &kp W         &kp E      &kp R      &kp T      &kp RET    &kp RET    &kp Y      &kp U      &kp I      &kp O    &kp P           &kp BSPC
+&kp CAPS       &kp A     &kp S         &kp D      &kp F      &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J      &kp K      &kp L    &kp SEMI        &kp APOS
+&kp LS(LSHFT)  &kp Z     &kp X         &kp C      &kp V      &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK  &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -77,12 +73,12 @@ As such, those are in use within the default layer at this time.*/
             // | LCTRL  | LGUI  | LALT  | SPACE |  MO1  | SPACE | ENTER  |                    | ENTER  | SPACE | ENTER |  MO2  | RSFT  | RCTRL |
 
             bindings = <
-&kp ESC        &kp F1    &kp F2        &kp F3    &kp F4    &kp F5     &kp UP     &kp UP     &kp F6     &kp F7    &kp F8     &kp F9   &kp F10         &kp F11
-&kp MINUS      &kp N1    &kp N2        &kp N3    &kp N4    &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9   &kp N0          &kp EQUAL
-&kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
-&kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
-&kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp ESC        &kp F1    &kp F2        &kp F3     &kp F4     &kp F5     &kp UP     &kp UP     &kp F6     &kp F7     &kp F8     &kp F9   &kp F10         &kp F11
+&kp MINUS      &kp N1    &kp N2        &kp N3     &kp N4     &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0          &kp EQUAL
+&kp TAB        &kp Q     &kp W         &kp E      &kp R      &kp T      &kp RET    &kp RET    &kp Y      &kp U      &kp I      &kp O    &kp P           &kp BSPC
+&kp CAPS       &kp A     &kp S         &kp D      &kp F      &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J      &kp K      &kp L    &kp SEMI        &kp APOS
+&kp LS(LSHFT)  &kp Z     &kp X         &kp C      &kp V      &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK  &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -95,12 +91,12 @@ As such, those are in use within the default layer at this time.*/
             // | LCTRL  | LGUI  | LALT  | SPACE |  MO1  | SPACE | ENTER  |                    | ENTER  | SPACE | ENTER |  MO2  | RSFT  | RCTRL |
 
             bindings = <
-&kp ESC        &kp F1    &kp F2        &kp F3    &kp F4    &kp F5     &kp UP     &kp UP     &kp F6     &kp F7    &kp F8     &kp F9   &kp F10         &kp F11
-&kp MINUS      &kp N1    &kp N2        &kp N3    &kp N4    &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9   &kp N0          &kp EQUAL
-&kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
-&kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
-&kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp ESC        &kp F1    &kp F2        &kp F3     &kp F4     &kp F5     &kp UP     &kp UP     &kp F6     &kp F7     &kp F8     &kp F9   &kp F10         &kp F11
+&kp MINUS      &kp N1    &kp N2        &kp N3     &kp N4     &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0          &kp EQUAL
+&kp TAB        &kp Q     &kp W         &kp E      &kp R      &kp T      &kp RET    &kp RET    &kp Y      &kp U      &kp I      &kp O    &kp P           &kp BSPC
+&kp CAPS       &kp A     &kp S         &kp D      &kp F      &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J      &kp K      &kp L    &kp SEMI        &kp APOS
+&kp LS(LSHFT)  &kp Z     &kp X         &kp C      &kp V      &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK  &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
 
@@ -113,12 +109,12 @@ As such, those are in use within the default layer at this time.*/
             // | LCTRL  | LGUI  | LALT  | SPACE |  MO1  | SPACE | ENTER  |                    | ENTER  | SPACE | ENTER |  MO2  | RSFT  | RCTRL |
 
             bindings = <
-&kp ESC        &kp F1    &kp F2        &kp F3    &kp F4    &kp F5     &kp UP     &kp UP     &kp F6     &kp F7    &kp F8     &kp F9   &kp F10         &kp F11
-&kp MINUS      &kp N1    &kp N2        &kp N3    &kp N4    &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9   &kp N0          &kp EQUAL
-&kp TAB        &kp Q     &kp W         &kp E     &kp R     &kp T      &kp RET    &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P           &kp BSPC
-&kp CAPS       &kp A     &kp S         &kp D     &kp F     &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI        &kp APOS
-&kp LS(LSHFT)  &kp Z     &kp X         &kp C     &kp V     &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
-&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK   &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
+&kp ESC        &kp F1    &kp F2        &kp F3     &kp F4     &kp F5     &kp UP     &kp UP     &kp F6     &kp F7     &kp F8     &kp F9   &kp F10         &kp F11
+&kp MINUS      &kp N1    &kp N2        &kp N3     &kp N4     &kp N5     &kp RIGHT  &kp RIGHT  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0          &kp EQUAL
+&kp TAB        &kp Q     &kp W         &kp E      &kp R      &kp T      &kp RET    &kp RET    &kp Y      &kp U      &kp I      &kp O    &kp P           &kp BSPC
+&kp CAPS       &kp A     &kp S         &kp D      &kp F      &kp G      &kp LEFT   &kp LEFT   &kp H      &kp J      &kp K      &kp L    &kp SEMI        &kp APOS
+&kp LS(LSHFT)  &kp Z     &kp X         &kp C      &kp V      &kp B      &kp DOWN   &kp DOWN   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH        &kp RS(ENTER)
+&kp LC(LCTRL)  &kp LGUI  &kp LA(LALT)  &mkp LCLK  &mkp RCLK  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE  &mkp LCLK  &mkp RCLK  &kp DEL  &kp RA(DELETE)  &kp RC(RCTRL)
             >;
         };
     };
