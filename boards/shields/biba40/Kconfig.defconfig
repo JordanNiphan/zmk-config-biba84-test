@@ -14,21 +14,40 @@ if SHIELD_BIBA40_LEFT || SHIELD_BIBA40_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_POINTING
+    default y
+
+config ZMK_MOUSE
+    default y
+
+config ZMK_MOUSE_BUTTONS
+    default y
+
+config ZMK_HID_REPORT_MOUSE
+    default y
+
+config ZMK_HID_REPORT_KEYBOARD
+    default y
+
+config ZMK_HID_BOOT_PROTOCOL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_USB_HID_STUDIO
+    default y
+
+config ZMK_RPC
+    default y
+
+config ZMK_RPC_USB
+    default y
+
+config ZMK_RPC_UART
+    default y
+
+config ZMK_STUDIO
+    default y
+
 endif
-
-# Mouse support
-CONFIG_ZMK_POINTING=y
-CONFIG_ZMK_MOUSE=y
-CONFIG_ZMK_MOUSE_BUTTONS=y
-CONFIG_ZMK_HID_REPORT_MOUSE=y
-CONFIG_ZMK_HID_REPORT_KEYBOARD=y
-CONFIG_ZMK_HID_BOOT_PROTOCOL=y
-
-# Optional USB support
-CONFIG_ZMK_USB=y
-CONFIG_ZMK_USB_HID_STUDIO=y
-CONFIG_ZMK_RPC=y
-CONFIG_ZMK_RPC_USB=y
-CONFIG_ZMK_RPC_UART=y
-
-CONFIG_ZMK_STUDIO=y
