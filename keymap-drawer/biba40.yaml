@@ -35,7 +35,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - BT CLR ALL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Y
   - U
