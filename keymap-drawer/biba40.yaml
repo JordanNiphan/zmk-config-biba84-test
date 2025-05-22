@@ -35,7 +35,7 @@ layers:
   - E
   - R
   - T
-  - MENU
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Y
   - U
@@ -427,4 +427,4 @@ layers:
   - $$mdi:apple-keyboard-control$$
 combos:
 - p: [34, 76]
-  k: '&studio_unlock'
+  k: BT CLR ALL
