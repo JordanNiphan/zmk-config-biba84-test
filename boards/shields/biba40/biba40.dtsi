@@ -61,7 +61,7 @@
 
  &default_layout {
     transform = <&default_transform>;
-    // kscan = <&kscan0>; // Chỉ cần nếu bạn dùng nhiều kscan
+    // kscan = <&kscan0>; //
     };
 
 &adc {
