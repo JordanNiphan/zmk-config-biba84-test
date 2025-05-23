@@ -41,7 +41,7 @@
 
     zmk_usb_logging: usb_cdc_acm@0 {
         compatible = "zephyr,usb-cdc-acm";
-        reg = <0x0>;
+        reg = <0x00000001 0x1000>;      
         status = "okay";
         };
     
