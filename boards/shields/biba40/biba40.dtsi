@@ -37,7 +37,7 @@
     uart0 {
         status = "okay";
         };
->>>>>>> ce977f3d81f3b7a8f5198cc9de923122b6db3c43
+
 
     zmk_usb_logging: usb_cdc_acm@0 {
         compatible = "zephyr,usb-cdc-acm";
