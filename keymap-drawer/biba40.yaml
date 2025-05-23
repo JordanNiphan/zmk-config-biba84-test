@@ -77,7 +77,7 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - BT PAIR
   - $$mdi:keyboard-space$$
-  - BT ADV
+  - {t: BT ADV, h: '0'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
