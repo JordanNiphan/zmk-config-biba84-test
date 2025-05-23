@@ -7,6 +7,7 @@
         zmk,battery = &vbatt;
         zmk,physical-layout = &default_layout;
         zephyr_console = &zmk_usb_logging; 
+  
 
     };
 
@@ -33,10 +34,6 @@
         >;
     };
 
-
-    uart0 {
-        status = "okay";
-        };
 
 
     zmk_usb_logging: usb_cdc_acm@0 {
@@ -92,4 +89,5 @@
         compatible = "zephyr,cdc-acm-uart";
     };
 };
+
 
