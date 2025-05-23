@@ -6,7 +6,12 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &default_layout;
+<<<<<<< HEAD
+        zephyr_console = &uart0;
+
+=======
         zephyr_console = &zmk_usb_logging; 
+>>>>>>> ce977f3d81f3b7a8f5198cc9de923122b6db3c43
     };
 
     default_transform: keymap_transform_0 {
@@ -32,12 +37,15 @@
         >;
     };
 
+
     uart0 {
         status = "okay";
         };
+>>>>>>> ce977f3d81f3b7a8f5198cc9de923122b6db3c43
 
     zmk_usb_logging: usb_cdc_acm@0 {
         compatible = "zephyr,usb-cdc-acm";
+        reg = <0x0>;
         status = "okay";
         };
     
@@ -88,3 +96,4 @@
         compatible = "zephyr,cdc-acm-uart";
     };
 };
+
