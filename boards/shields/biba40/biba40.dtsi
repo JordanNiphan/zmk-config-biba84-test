@@ -6,7 +6,7 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &default_layout;
-
+        zephyr_console = &zmk_usb_logging; 
     };
 
     default_transform: keymap_transform_0 {
@@ -32,7 +32,20 @@
         >;
     };
 
+    uart0: uart@40002000 {
+    compatible = "vendor,uart";
+    reg = <0x40002000 0x1000>;
+    status = "okay";
+    // plus any pinctrl if needed
+    };
 
+    zmk_usb_logging: usb_cdc_acm@0 {
+    compatible = "zephyr,usb-cdc-acm";
+    status = "okay";
+    };
+    
+ 
+    };
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
        init-delay-ms = <50>;
