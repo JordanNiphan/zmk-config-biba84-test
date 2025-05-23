@@ -32,6 +32,8 @@
         >;
     };
 
+/
+
     ext-power {
         compatible = "zmk,ext-power-generic";
         label = "EXT_POWER";
