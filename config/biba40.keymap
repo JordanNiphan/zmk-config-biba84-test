@@ -66,7 +66,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T      &bt BT_CLR  &kp RET    &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
 &kp CAPS   &kp A     &kp S     &kp D     &kp F     &kp G      &kp LEFT        &kp LEFT   &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z     &kp X     &kp C     &kp V     &kp B      &kp DOWN        &kp DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&kp LCTRL  &kp LGUI  &kp LALT  &bt BT_SEL 0  &bt BT_PAIR  &kp SPACE  &bt BT_ADV       &kp ENTER  &kp SPACE  &mkp MB1  &mkp RCLK  &kp DEL  &kp RALT  &kp RCTRL
+&kp LCTRL  &kp LGUI  &kp LALT  &bt BT_SEL 0  &bt BT_PAIR  &kp SPACE  &bt BT_ADV 0       &kp ENTER  &kp SPACE  &mkp MB1  &mkp RCLK  &kp DEL  &kp RALT  &kp RCTRL
             >;
         };
 
