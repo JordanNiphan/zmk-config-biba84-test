@@ -6,7 +6,7 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &default_layout;
-        zephyr_console = &zmk_usb_logging; 
+ 
   
 
     };
@@ -34,13 +34,6 @@
         >;
     };
 
-
-
-    zmk_usb_logging: usb_cdc_acm@0 {
-        compatible = "zephyr,usb-cdc-acm";
-        reg = <0x00000001 0x1000>;      
-        status = "okay";
-        };
     
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
