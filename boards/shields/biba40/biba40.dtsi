@@ -6,7 +6,7 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &default_layout;
- 
+        zephyr,console = &cdc_acm_uart;
   
 
     };
