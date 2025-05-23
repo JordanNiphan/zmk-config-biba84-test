@@ -74,8 +74,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - BT PAIR
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
